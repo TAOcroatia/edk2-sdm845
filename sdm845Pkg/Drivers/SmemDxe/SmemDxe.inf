@@ -1,0 +1,20 @@
+[Defines]
+    INF_VERSION = 0x00010005
+    BASE_NAME = SmemDxe
+    FILE_GUID = f541d663-4a48-40aa-aabf-ff158ccae34c
+    MODULE_TYPE = DXE_DRIVER
+    ENTRY_POINT = InitSmem
+
+[Sources]
+    SmemDxe.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+
+[LibraryClasses]
+    UefiDriverEntryPoint
+
+[Protocols]
+
+[Depex]
+    TRUE

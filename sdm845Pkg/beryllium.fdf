@@ -209,11 +209,13 @@ READ_LOCK_STATUS   = TRUE
     SECTION UI = "SPMI"
   }
 
-  FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c {
-    SECTION DXE_DEPEX = sdm845Pkg/Binary/beryllium/SmemDxe/SmemDxe.depex
-    SECTION PE32 = sdm845Pkg/Binary/beryllium/SmemDxe/SmemDxe.efi
-    SECTION UI = "SmemDxe"
-  }
+  #FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c {
+  #  SECTION DXE_DEPEX = sdm845Pkg/Binary/beryllium/SmemDxe/SmemDxe.depex
+  #  SECTION PE32 = sdm845Pkg/Binary/beryllium/SmemDxe/SmemDxe.efi
+  #  SECTION UI = "SmemDxe"
+  #}
+
+  INF sdm845Pkg/Drivers/SmemDxe/SmemDxe.inf
     
   FILE DRIVER = 10e193df-9966-44e7-b17c-59dd831e20fc {
     SECTION DXE_DEPEX = sdm845Pkg/Binary/beryllium/ChipInfo/ChipInfo.depex

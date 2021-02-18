@@ -24,3 +24,5 @@
   #gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
   #gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2234|UINT32|0x0000a405
 
+[Components.common]
+  sdm845Pkg/Drivers/SmemDxe/SmemDxe.inf
